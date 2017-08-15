@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/portrait/player1.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/!$Gate1.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/!$Gate2.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/!Chest.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/!Crystal.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/!Door1.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/!Door2.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/!Flame.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/!Other1.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/!Other2.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/!Switch1.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/!Switch2.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/$BigMonster1.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/$BigMonster2.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/Actor1.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/Actor2.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/Actor3.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/Damage1.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/Damage2.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/Damage3.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/Evil.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/Monster.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/Nature.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/People1.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/People2.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/People3.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/People4.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/sprites/Vehicle.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/backgrounds/title.png</File>
+    <File>D:/Projects/C#/CyllianLegendsWorlds/CyllianLegendsWorlds/Content/fonts/font1.spritefont</File>
+  </SourceFiles>
+</SourceFileCollection>
