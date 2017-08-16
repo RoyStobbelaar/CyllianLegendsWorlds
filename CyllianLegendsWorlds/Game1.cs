@@ -46,6 +46,7 @@ namespace CyllianLegendsWorlds
             graphics.ApplyChanges();
 
             Window.Title = Config.Title;
+            IsMouseVisible = true;
 
             screenManager = new ScreenManager(this);
             //Set titlescreen

@@ -11,8 +11,8 @@ namespace CyllianLegendsWorlds.Screens
     {
 
         public Stack<DrawableGameComponent> screens { get; set; }
-        public DrawableGameComponent activeScreen { get; set; }
-        public DrawableGameComponent previousScreen { get; set; }
+        public DrawableGameComponent ActiveScreen { get; set; }
+        public DrawableGameComponent PreviousScreen { get; set; }
 
         public ScreenManager(Game game) : base(game)
         {
@@ -21,13 +21,13 @@ namespace CyllianLegendsWorlds.Screens
 
         public void SetScreen(DrawableGameComponent newScreen)
         {
-            if(screens.Peek() != null)
+            if(screens.Count >= 1)
             {
-                this.previousScreen = screens.Peek();
+                this.PreviousScreen = screens.Peek();
             }
 
             this.screens.Push(newScreen);
-            this.activeScreen = newScreen;
+            this.ActiveScreen = newScreen;
         }
 
         public void PopScreen()
@@ -35,7 +35,7 @@ namespace CyllianLegendsWorlds.Screens
             this.screens.Pop();
             if(this.screens.Count > 0)
             {
-                this.activeScreen = this.screens.Peek();
+                this.ActiveScreen = this.screens.Peek();
             }
 
             //Add to component oid?
@@ -55,9 +55,9 @@ namespace CyllianLegendsWorlds.Screens
         {
             Console.WriteLine("Update screen manager");
 
-            if (this.activeScreen != null)
+            if (this.ActiveScreen != null)
             {
-                this.activeScreen.Update(gameTime);
+                this.ActiveScreen.Update(gameTime);
             }
 
             base.Update(gameTime);
@@ -66,9 +66,9 @@ namespace CyllianLegendsWorlds.Screens
         public override void Draw(GameTime gameTime)
         {
             
-            if(this.activeScreen != null)
+            if(this.ActiveScreen != null)
             {
-                this.activeScreen.Draw(gameTime);
+                this.ActiveScreen.Draw(gameTime);
             }
 
             base.Draw(gameTime);

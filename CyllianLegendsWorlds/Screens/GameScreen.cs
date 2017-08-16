@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CyllianLegendsWorlds.GameClasses;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
@@ -10,6 +11,9 @@ namespace CyllianLegendsWorlds.Screens
 {
     public class GameScreen : AbstractScreen
     {
+
+        public GameManager GameManager { get; set; }
+
         public GameScreen(Game game, ScreenManager manager) : base(game, manager)
         {
             Initialize();
@@ -24,6 +28,7 @@ namespace CyllianLegendsWorlds.Screens
             base.Initialize();
 
             //Create map and stuff
+            this.GameManager = new GameManager();
         }
 
         public override void Update(GameTime gameTime)

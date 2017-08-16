@@ -43,7 +43,7 @@
   <ItemGroup>
     <Compile Include="Config.cs" />
     <Compile Include="Game1.cs" />
-    <Compile Include="GameClasses\Game.cs" />
+    <Compile Include="GameClasses\GameManager.cs" />
     <Compile Include="GameClasses\Map.cs" />
     <Compile Include="GameClasses\Tile.cs" />
     <Compile Include="GameClasses\TileMap.cs" />
